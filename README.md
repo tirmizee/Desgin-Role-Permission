@@ -50,6 +50,10 @@
     INSERT INTO `schema_mysql`.`users` (`username`,`password`,`role_id`) VALUES ('tirmizee','tirmizee', 1);
     INSERT INTO `schema_mysql`.`users` (`username`,`password`,`role_id`) VALUES ('pratya','pratya', 2);
 
+    INSERT INTO `schema_mysql`.`permissions`(`id`,`per_code`,`per_name`) VALUES (1, 'P001', 'Main page');
+    INSERT INTO `schema_mysql`.`permissions`(`id`,`per_code`,`per_name`) VALUES (2, 'P002', 'Customer page');
+    INSERT INTO `schema_mysql`.`permissions`(`id`,`per_code`,`per_name`) VALUES (3, 'P003', 'Product page');
+
 ```
 
 </b>
