@@ -31,7 +31,7 @@
     CREATE TABLE role_permission (
         role_id INT NOT NULL,
         permission_id INT NOT NULL,
-        PRIMARY KEY (role_id,permission_id)
+        PRIMARY KEY (role_id, permission_id)
     );
 
 ```
