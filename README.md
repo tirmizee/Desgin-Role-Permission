@@ -37,3 +37,19 @@
 ```
 
 </b>
+
+### Sample data
+
+<b>
+
+```sql
+
+    INSERT INTO `schema_mysql`.`roles`(`id`,`role_name`)VALUES(1, 'admin');
+    INSERT INTO `schema_mysql`.`roles`(`id`,`role_name`)VALUES(2, 'user');
+
+    INSERT INTO `schema_mysql`.`users` (`username`,`password`,`role_id`) VALUES ('tirmizee','tirmizee', 1);
+    INSERT INTO `schema_mysql`.`users` (`username`,`password`,`role_id`) VALUES ('pratya','pratya', 2);
+
+```
+
+</b>
