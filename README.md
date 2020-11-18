@@ -54,6 +54,13 @@
     INSERT INTO `schema_mysql`.`permissions`(`id`,`per_code`,`per_name`) VALUES (2, 'P002', 'Customer page');
     INSERT INTO `schema_mysql`.`permissions`(`id`,`per_code`,`per_name`) VALUES (3, 'P003', 'Product page');
 
+    
+    INSERT INTO `schema_mysql`.`role_permission`(`role_id`,`permission_id`) VALUES (1,1);
+    INSERT INTO `schema_mysql`.`role_permission`(`role_id`,`permission_id`) VALUES (1,2);
+    INSERT INTO `schema_mysql`.`role_permission`(`role_id`,`permission_id`) VALUES (1,3);
+    INSERT INTO `schema_mysql`.`role_permission`(`role_id`,`permission_id`) VALUES (2,1);
+    INSERT INTO `schema_mysql`.`role_permission`(`role_id`,`permission_id`) VALUES (2,2);
+
 ```
 
 </b>
