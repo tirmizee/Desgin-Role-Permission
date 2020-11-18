@@ -7,13 +7,13 @@
 ```sql
 
     CREATE TABLE roles (
-      id INT AUTO_INCREMENT NOT NULL,
+        id INT AUTO_INCREMENT NOT NULL,
         role_name varchar(200) NOT NULL,
         PRIMARY KEY (id)
     );
 
     CREATE TABLE users (
-      id INT AUTO_INCREMENT NOT NULL,
+        id INT AUTO_INCREMENT NOT NULL,
         username varchar(200) NOT NULL,
         password varchar(200) NOT NULL,
         role_id INT NOT NULL,
@@ -22,16 +22,16 @@
     );
 
     CREATE TABLE permissions (
-      id INT AUTO_INCREMENT NOT NULL,
+        id INT AUTO_INCREMENT NOT NULL,
         per_code varchar(200) NOT NULL,
         per_name varchar(200) NOT NULL,
         PRIMARY KEY (id)
     );
 
     CREATE TABLE role_permission (
-      role_id INT NOT NULL,
+        role_id INT NOT NULL,
         permission_id INT NOT NULL,
-      PRIMARY KEY (role_id,permission_id)
+        PRIMARY KEY (role_id,permission_id)
     );
 
 ```
